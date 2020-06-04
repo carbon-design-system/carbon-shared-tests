@@ -14,6 +14,11 @@ _(recommended)_ Use [NVM](https://github.com/nvm-sh/nvm#node-version-manager---)
 
 We develop using a [forking workflow](https://guides.github.com/activities/forking/) for all users looking to do any work on Carbon Shared Tests.
 
+Now that you you have Carbon Shared Tests set up locally, navigate to the project using the `cd` command in the terminal and install dependencies using this command:
+
+```bash
+yarn
+```
 ## Contribution Guide
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
