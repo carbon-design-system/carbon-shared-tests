@@ -13,3 +13,9 @@ jobs:
         - yarn test
     - stage: build
       script: yarn build
+    - stage: release
+      deploy:
+        provider: script
+        script: yarn release
+        on:
+          branch: 'stable'
