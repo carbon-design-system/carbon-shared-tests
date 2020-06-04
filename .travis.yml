@@ -10,5 +10,6 @@ jobs:
     - stage: test
       script:
         - yarn lint
+        - yarn test
     - stage: build
       script: yarn build
