@@ -19,6 +19,21 @@ Now that you you have Carbon Shared Tests set up locally, navigate to the projec
 ```bash
 yarn
 ```
+
+### Deployment
+
+We distribute Carbon Shared Tests in multiple formats for increased support of various testing frameworks. Import the desired format from the following locations:
+
+* ES 2015 (ES6) Modules- `dist/es/index.js`
+* Common JS (ES5) - `dist/cjs/index.js`
+* Browser compatible (UMD) - `dist/umd/index.js`
+
+To run the transpiler and generate the previous files use this command:
+
+```bash
+yarn build
+```
+
 ## Contribution Guide
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
