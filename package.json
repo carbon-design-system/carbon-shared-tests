@@ -25,6 +25,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
     "ts": "tsc --outDir ./dist/es --declaration --declarationDir ./dist/types",
+    "lint": "eslint \"**/*.ts\""
+    "@typescript-eslint/eslint-plugin": "2.34.0",
+    "@typescript-eslint/parser": "2.34.0",
+    "eslint": "7.0.0",
     "typescript": "3.9.2",
   }
 }
