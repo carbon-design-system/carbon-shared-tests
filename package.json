@@ -28,8 +28,7 @@
     "ts": "tsc --outDir ./dist/es --declaration --declarationDir ./dist/types",
     "test": "mocha",
     "build": "yarn ts && rollup -c",
-    "lint": "eslint \"**/*.ts\"",
-    "release": "yarn build && semantic-release"
+    "lint": "eslint \"**/*.ts\""
   },
   "dependencies": {},
   "devDependencies": {

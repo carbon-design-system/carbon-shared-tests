@@ -14,8 +14,7 @@ jobs:
     - stage: build
       script: yarn build
     - stage: release
-      deploy:
-        provider: script
-        script: yarn release
-        on:
-          branch: 'master'
+      if: (branch = master) AND (type = push)
+      script:
+        - yarn build
+        - npx semantic-release
