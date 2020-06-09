@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "es2016"
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["./src/**/tests/*"]
+}
