@@ -30,7 +30,10 @@
     "build": "yarn ts && rollup -c",
     "lint": "eslint \"**/*.ts\""
   },
-  "dependencies": {},
+  "dependencies": {
+    "exported-tests": "1.1.1",
+    "lodash-es": "4.17.15"
+  },
   "devDependencies": {
     "@babel/core": "7.9.6",
     "@babel/plugin-proposal-class-properties": "7.8.3",
