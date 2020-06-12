@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "allowJs": true,
-    "target": "es2016"
+    "target": "es2016",
+    "moduleResolution": "node"
   },
   "include": ["./src/**/*"],
   "exclude": ["./src/**/tests/*"]

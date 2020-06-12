@@ -26,11 +26,14 @@
   "source": true,
   "scripts": {
     "ts": "tsc --outDir ./dist/es --declaration --declarationDir ./dist/types",
-    "test": "mocha",
+    "test": "mocha -r esm",
     "build": "yarn ts && rollup -c",
     "lint": "eslint \"**/*.ts\""
   },
-  "dependencies": {},
+  "dependencies": {
+    "exported-tests": "1.1.1",
+    "lodash-es": "4.17.15"
+  },
   "devDependencies": {
     "@babel/core": "7.9.6",
     "@babel/plugin-proposal-class-properties": "7.8.3",
@@ -47,6 +50,7 @@
     "canvas": "2.6.1",
     "chai": "4.2.0",
     "eslint": "7.0.0",
+    "esm": "3.2.25",
     "jsdom": "16.2.2",
     "mocha": "7.1.2",
     "rollup": "2.9.1",
